@@ -1,5 +1,3 @@
-DirectoryIndex index.php
-
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /
@@ -7,11 +5,11 @@ DirectoryIndex index.php
     # Prevent directory listings
     Options -Indexes
 
-    # Serve existing files directly
+    # Serve existing files directly from public/
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Route all other requests to PU_create.php
-    RewriteRule ^(.*)$ PU_create.php [L]
+    # Rewrite all other requests to index.php
+    RewriteRule ^(.*)$ public/index.php [L]
 </IfModule>
