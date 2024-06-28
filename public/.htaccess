@@ -10,6 +10,9 @@
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Rewrite all other requests to index.php
-    RewriteRule ^(.*)$ index.php [L]
+    # Rewrite all requests to index.php except for specific files and directories
+    RewriteCond %{REQUEST_URI} !^/assets/.*$
+    RewriteCond %{REQUEST_URI} !^/include/.*$
+    RewriteCond %{REQUEST_URI} !^/public/.*$
+    RewriteRule ^ index.php [L]
 </IfModule>
