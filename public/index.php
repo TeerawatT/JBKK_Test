@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-2 d-flex justify-content-end align-items-center">
                             <a class="navbar-brand">
-                                <img src="/assets/IMG/united-states.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                                <img src="../assets/IMG/united-states.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                             </a>
                             <a class="navbar-brand ms-1 me-4 mt-1" href="#">
                                 <i class="bi bi-bell"></i>
@@ -52,7 +52,7 @@
                                 <i class="bi bi-printer "></i>
                             </a>
                             <a class="navbar-brand ">
-                                <img src="/assets/IMG/uiw_file-excel.png" alt="Logo" width="28" height="28">
+                                <img src="../assets/IMG/uiw_file-excel.png" alt="Logo" width="28" height="28">
                             </a>
                             <a class="navbar-brand " href="#" data-bs-toggle="modal" data-bs-target="#qrModal">
                                 <i data-lucide="scan-line"></i>
@@ -357,7 +357,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="/assets/IMG/Vector.png"></td>
+                                                        <td><img src="../assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">2</td>
@@ -386,7 +386,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="/assets/IMG/Vector.png"></td>
+                                                        <td><img src="../assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">3</td>
@@ -415,7 +415,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="/assets/IMG/Vector.png"></td>
+                                                        <td><img src="../assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">4</td>
@@ -444,7 +444,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="/assets/IMG/Vector.png"></td>
+                                                        <td><img src="../assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">5</td>
@@ -473,7 +473,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="/assets/IMG/Vector.png"></td>
+                                                        <td><img src="../assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="border-top"></td>
@@ -598,7 +598,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-header d-flex justify-content-center align-items-center">
-                            <img src="/assets/IMG/img_save.png">
+                            <img src="../assets/IMG/img_save.png">
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-center">
                             <h4>Would you like to save?</h4>
