@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-2 d-flex justify-content-end align-items-center">
                             <a class="navbar-brand">
-                                <img src="..\assets\IMG\united-states.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                                <img src="/assets/IMG/united-states.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
                             </a>
                             <a class="navbar-brand ms-1 me-4 mt-1" href="#">
                                 <i class="bi bi-bell"></i>
@@ -52,7 +52,7 @@
                                 <i class="bi bi-printer "></i>
                             </a>
                             <a class="navbar-brand ">
-                                <img src="..\assets\IMG\uiw_file-excel.png" alt="Logo" width="28" height="28">
+                                <img src="/assets/IMG/uiw_file-excel.png" alt="Logo" width="28" height="28">
                             </a>
                             <a class="navbar-brand " href="#" data-bs-toggle="modal" data-bs-target="#qrModal">
                                 <i data-lucide="scan-line"></i>
@@ -357,7 +357,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="..\assets\IMG\Vector.png"></td>
+                                                        <td><img src="/assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">2</td>
@@ -386,7 +386,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="..\assets\IMG\Vector.png"></td>
+                                                        <td><img src="/assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">3</td>
@@ -415,7 +415,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="..\assets\IMG\Vector.png"></td>
+                                                        <td><img src="/assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">4</td>
@@ -444,7 +444,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="..\assets\IMG\Vector.png"></td>
+                                                        <td><img src="/assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="fs-6">5</td>
@@ -473,7 +473,7 @@
                                                         <td><input type="text" class="form-control date_icon" placeholder="DD/MM/YY"></td>
                                                         <td><input type="text" class="form-control"></td>
                                                         <td><input type="text" class="form-control descrip_text" placeholder="Description..."></td>
-                                                        <td><img src="..\assets\IMG\Vector.png"></td>
+                                                        <td><img src="/assets/IMG/Vector.png"></td>
                                                     </tr>
                                                     <tr>
                                                         <td class="border-top"></td>
@@ -598,7 +598,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-header d-flex justify-content-center align-items-center">
-                            <img src="..\assets\IMG\img_save.png">
+                            <img src="/assets/IMG/img_save.png">
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-center">
                             <h4>Would you like to save?</h4>
@@ -621,7 +621,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-header d-flex justify-content-center align-items-center flex-column pt-5">
-                            <img src="..\assets\IMG\simple-line-icons_check.png">
+                            <img src="../assets/IMG/simple-line-icons_check.png">
                             <h4 class="mt-4 fw-bold">Successfully!</h4>
                         </div>
                     </div>
@@ -641,7 +641,7 @@
                             <p class="mb-0">Tap the pop-up notification</p>
                         </div>
                         <div class="modal-body d-flex justify-content-center align-items-center">
-                            <img src="..\assets\IMG\qr_code.png">
+                            <img src="../assets/IMG/qr_code.png">
                         </div>
                         <div class="modal-footer d-flex justify-content-center align-items-center pt-0">
                             <button type="button" class="button_qr fw-bold" data-bs-dismiss="modal">
@@ -680,8 +680,8 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-1 d-flex justify-content-around align-items-center">
-                                                    <img src="..\assets\IMG\mi_print.png" alt="Logo" width="28" height="28">
-                                                    <img src="..\assets\IMG\uiw_file-excel-gray.png" alt="Logo" width="25" height="25">
+                                                    <img src="../assets/IMG/mi_print.png" alt="Logo" width="28" height="28">
+                                                    <img src="../assets/IMG/uiw_file-excel-gray.png" alt="Logo" width="25" height="25">
                                                 </div>
                                                 <div class="col-12 mt-4">
                                                     <section class="PO_table">
@@ -691,17 +691,17 @@
                                                                     <tr>
                                                                         <th class="box"><input type="checkbox"></th>
                                                                         <th>#</th>
-                                                                        <th>TranDate <img src="..\assets\IMG\bx_sort.png"></th>
-                                                                        <th>Doc Date <img src="..\assets\IMG\bx_sort.png"></th>
-                                                                        <th>Due Date <img src="..\assets\IMG\bx_sort.png"></th>
+                                                                        <th>TranDate <img src="../assets/IMG/bx_sort.png"></th>
+                                                                        <th>Doc Date <img src="../assets/IMG/bx_sort.png"></th>
+                                                                        <th>Due Date <img src="../assets/IMG/bx_sort.png"></th>
                                                                         <th>PU No.</th>
-                                                                        <th>Account <img src="..\assets\IMG\icon_filter.png"></th>
+                                                                        <th>Account <img src="../assets/IMG/icon_filter.png"></th>
                                                                         <th>Ref 1</th>
                                                                         <th>Ref 2</th>
                                                                         <th>Pcs</th>
                                                                         <th>Weight</th>
                                                                         <th>Amount</th>
-                                                                        <th>Currency <img src="..\assets\IMG\icon_filter.png"></th>
+                                                                        <th>Currency <img src="../assets/IMG/icon_filter.png"></th>
                                                                         <th>Remark</th>
                                                                     </tr>
                                                                 </thead>
