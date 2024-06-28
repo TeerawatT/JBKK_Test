@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteBase /
+    RewriteRule ^$ PU_create.php [L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ PU_create.php [QSA,L]
+    RewriteRule ^(.*)$ PU_create.php [L]
 </IfModule>
