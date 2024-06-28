@@ -7,10 +7,10 @@
     <title>Document</title>
 
     <!-- style -->
-    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="/assets/style.css">
     <!-- bootstrap-5 -->
-    <link rel="stylesheet" href="../assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
-    <script src="../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css" rel="stylesheet">
@@ -31,12 +31,12 @@
             <div class="pin">
                 <a>
                     <button class="border-0" onclick="toggleMenu()">
-                        <img id="rotatableImg" src="../assets/IMG/iconoir_pin.png" class="rotate-img">
+                        <img id="rotatableImg" src="/assets/IMG/iconoir_pin.png" class="rotate-img">
                     </button>
                 </a>
             </div>
             <div class="logo d-flex justify-content-center">
-                <img src="..\assets\IMG\Codth logo-JPG(WH) 1.png" alt="">
+                <img src="/assets/IMG/Codth logo-JPG(WH) 1.png" alt="">
             </div>
             <div class="border-line-title d-flex justify-content-center"></div>
             <ul>
