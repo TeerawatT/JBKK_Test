@@ -1,0 +1,6 @@
+{
+    "name": "teerawat/php-kbkk-teera",
+    "require": {
+        "php": "^7.4"
+    }
+}
