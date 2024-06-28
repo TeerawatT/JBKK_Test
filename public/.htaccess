@@ -13,9 +13,3 @@
     # Rewrite all other requests to index.php
     RewriteRule ^(.*)$ public/index.php [L]
 </IfModule>
-
-# Allow CSS and image files to be served
-<FilesMatch "\.(css|png|jpg|jpeg|gif)$">
-    Allow from all
-    Require all granted
-</FilesMatch>
