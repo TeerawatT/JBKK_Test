@@ -1,15 +1,15 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
+    RewriteBase /JBKK_TEST/public/
 
     # Prevent directory listings
     Options -Indexes
 
-    # Serve existing files directly from public/
+    # Serve existing files directly
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
     # Rewrite all other requests to index.php
-    RewriteRule ^(.*)$ public/index.php [L]
+    RewriteRule ^(.*)$ index.php [L]
 </IfModule>

@@ -20,7 +20,7 @@
     <script src="https://unpkg.com/gijgo@1.9.14/js/gijgo.min.js" type="text/javascript"></script>
     <link href="https://unpkg.com/gijgo@1.9.14/css/gijgo.min.css" rel="stylesheet" type="text/css" />
     <!-- mdb -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css">
 
 </head>
 
@@ -293,7 +293,7 @@
         </nav>
     </section>
 
-<!-- toggle each sub_nav_side -->
+    <!-- toggle each sub_nav_side -->
     <script>
         function OpenOrClose(id) {
             var submenus = document.getElementsByClassName('sub_sidenav');
@@ -306,7 +306,7 @@
         }
     </script>
 
-<!-- pin on nav_side -->
+    <!-- pin on nav_side -->
     <script>
         function toggleMenu() {
             var menu = document.getElementById('mainMenu');
