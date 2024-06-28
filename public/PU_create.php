@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <?php include '../include/side-navbar.php'; ?>
 
 <body>
