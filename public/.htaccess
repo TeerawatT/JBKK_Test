@@ -2,6 +2,10 @@
     RewriteEngine On
     RewriteBase /JBKK_TEST/public/
 
+    # Serve static assets directly
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^assets/(.*)$ assets/$1 [L]
+
     # Prevent directory listings
     Options -Indexes
 
@@ -10,7 +14,7 @@
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Rewrite all requests to index.php except for specific files and directories
-    RewriteCond %{REQUEST_URI} !^/assets/.*
+    # Rewrite all other requests to index.php
     RewriteRule ^ index.php [L]
 </IfModule>
+
